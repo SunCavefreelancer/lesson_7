@@ -1,0 +1,401 @@
+/* =======Підключення шрифтів вручну======= */
+@import url("fonts.css");
+
+/*=======Скидання стилів=======*/
+@import url("reset.css");
+
+
+
+/* ==============Основні Стилі============== */
+body {
+	padding: 0px 20px;
+	font-family: 'Inter';
+	font-style: 18px;
+}
+
+/* ======header======block-up=========== */
+.block-header-square {
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	margin-right: 6px;
+	display: inline-block;
+}
+
+.block-header-text {
+	margin-top: 80px;
+	text-align: center;
+	font-family: 'Inter';
+	font-weight: 500;
+	color: #37393F;
+}
+h1 {
+	font-size: 60px;
+	color: #37393F;
+	font-family: 'Poppins';
+	font-weight: bold;
+	line-height: 121%;
+	text-align: center;
+}
+/* ======header======block-up=========== */
+
+
+/* ======block========================== */
+.block {
+	max-width: 1218px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+/* ======block======block-a=========== */
+.block-a {
+	padding-top: 63px;
+	margin-bottom: 100px;
+}
+.block-a-icons {
+	font-size: 40px;
+	font-family: 'Poppins';
+	font-weight: bold;
+	color: #37393F;
+	line-height: 121%;
+	margin-bottom: 11px;
+}
+.block-a-text {
+	font-family: 'Inter';
+	font-size: 18px;
+	color: #7D7D7D;
+	line-height: 146.2%;
+	margin-bottom: 32px;
+}
+.block-a-sub-text {
+	font-size: 30px;
+	font-family: 'Poppins';
+	font-weight: bold;
+	line-height: 121%;
+	color: #37393F;
+}
+
+.block-a-sub-text span {
+	font-size: 30px;
+	font-family: 'Poppins';
+	font-weight: 400;
+	color: #40DDB6;
+}
+
+/* ======block======block-b=========== */
+.block-b { 
+	margin-bottom: 123px;
+}
+.block-b h2 { /* Photography   */
+	font-size: 40px;
+	font-family: 'Poppins';
+	font-weight: bold;
+	color: #37393F;
+	line-height: 121%;
+	margin-bottom: 11px;
+}
+.block-b-text { /*text... All images*/
+	font-style: 18px;
+	font-family: 'Inter';
+	line-height: 146.2%;
+	color: #7D7D7D;
+	margin-bottom: 24px;
+}
+.block-b-photography-pexels { /* Pexels */
+	font-size: 30px;
+	font-family: 'Poppins';
+	font-weight: bold;	
+	color: #37393F;
+	margin-bottom: 23px;
+}
+.block-b-photography-pexels span {
+	font-size: 30px;
+	font-family: 'Poppins';
+	font-weight: 400;
+	color: #40ddb6;
+	margin-bottom: 48px;
+}
+.block-b-sub-text { /* text Image 1... */
+	font-size: 18px;
+	font-family: 'Inter';
+	font-weight: 400;
+	color: #40ddb6;
+	line-height: 146.2%;
+	margin-bottom: 25px;
+}
+
+.block-b-photography-unsplash { /* text Unsplash */
+	font-size: 30px;
+	font-family: 'Poppins';
+	font-weight: bold;
+	line-height: 121%;
+	color: #37393F;
+	margin-bottom: 16px;
+}
+.block-b-photography-unsplash span {
+	font-size: 30px;
+	font-family: 'Poppins';
+	font-weight: 400;
+	color: #40DDB6;
+}
+.block-b-sub-text-two { /* text Image 1,Image 2 */
+	font-size: 18px;
+	font-family: 'Inter';
+	font-weight: 400;
+	color: #40ddb6;
+	line-height: 146.2%;
+	margin-bottom: 23px;
+}
+
+/* ======block======block-c=========== */
+h4{
+	font-size: 40px;
+	font-family: 'Poppins';
+	font-weight: bold;
+	line-height: 121%;
+	color: #37393F;
+	margin-bottom: 27px;
+}
+.block-c-fonts-text {
+	font-size: 18px;
+	font-family: 'Inter';
+	font-weight: 400;
+	line-height: 146.2%;
+	color: #7D7D7D;
+}
+.block-c-fonts-text span {
+	font-size: 18px;
+	font-family: 'Inter';
+	font-weight: 500;
+	line-height: 146.2%;
+	color: #40DDB6;
+}
+
+
+
+/* ====================maket-project-information======================== */
+.maket-project-information {
+	max-width: 830px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+.maket-project-information h3{
+	color: #37393F;
+	font-family: 'Poppins';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 127%; /* 50.8px */
+	margin-bottom: 19px;
+}
+
+.maket-project-information-text {
+	color: #7D7D7D;
+	font-family: 'Inter';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 146.187%; /* 26.314px */
+}
+
+.p-one {
+	list-style-type: 'disc';
+	margin-bottom: 34px;
+}
+
+.p-two {
+	margin-bottom: 34px;
+}
+.p-tree {
+	margin-bottom: 34px;
+}
+.maket-project-information-list {
+	color: #7D7D7D;
+	font-family: 'Inter';
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 146.187%; /* 26.314px */
+	margin-left: 37px;
+	margin-bottom: 34px;
+}
+.li-one {
+	margin-bottom: 32px;
+}
+.li-two {
+	margin-bottom: 33px;
+}
+.maket-project-information-list-two {
+	color: #7D7D7D;
+	font-family: 'Inter';
+	font-size: 18px;;
+	font-weight: 500;
+	line-height: 146.187%;
+	margin-left: 37px;
+	margin-bottom: 34px;
+	list-style: none;
+}
+
+
+/* ======================================================== */
+.maket-we-what-we-do {
+	padding: 120px 0px 80px 0px;
+	max-width: 1103px;
+	margin: 0 auto;
+}
+
+.maket-we-what-we-do-body {
+	display: inline-block;
+	font-size: 0;
+	padding: 70px 75px 69px 0px;
+}
+.maket-we-what-we-do-text {
+	color: #D58417;
+	font-family: 'Cormorant Infant';
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 100%; /* 20px */
+	margin-bottom: 27px;
+}
+
+.maket-we-what-we-do-title {
+	width: 503px;
+	color: #000;
+	font-family: 'Cormorant Infant';
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 100%; /* 64px */
+	margin-bottom: 31px;
+}
+
+.maket-we-what-we-do-subtitle {
+	color: #606060;
+	font-family: 'Cormorant Infant';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 140%; /* 42px */
+	width: 489px;
+}
+
+.maket-we-what-we-do-imgs {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.rectangle-img-a {
+	margin-right: 30px;
+	padding-top: 18px;
+	margin-top: 15px;
+	width: 177px;
+	height: 336px;
+	border-radius: 235px;
+	display: inline-block;
+	vertical-align: middle;
+	border-top: 1px solid black;
+}
+.rectangle-img-a img {
+	max-width: 100%;	
+}
+
+.rectangle-img-b {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 19px;
+	margin-left: -10px;
+	border-radius: 235px;
+	width: 307px;
+	height: 500px;
+	border: 1px solid black;
+}
+.rectangle-img-b img {
+	max-width: 100%;
+
+}
+
+
+/* =======================maket Clothing for Women Online in India============================= */
+.block-clothing-for-women-india {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.block-clothing-for-women-india-text {
+		padding: 0px 21px;
+}
+.block-clothing-for-women-india h2 {
+	display: inline-block;
+	width: 552px;
+	color: #3C4242;
+	font-family: 'CoreSansC-65Bold';
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 33.5px; /* 119.643% */
+	letter-spacing: 0.56px;
+	margin-bottom: 30px;
+}
+.block-clothing-for-women-india h3 {
+	width: 1153px;
+	color: #807D7E;
+	font-family: 'CoreSansC-65Bold';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 33.5px; /* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+.block-clothing-for-women-india-span {
+	display: inline-block;
+	width: 6px;
+	height: 28px;
+	background-color: #8A33FD;
+	border-radius: 10px;
+	margin-right: 15px;
+}
+.block-clothing-for-women-india-title {
+	width: 1043px;
+	color: #807D7E;
+	font-family: 'CoreSansC-65Bold';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 33.5px; /* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+.block-clothing-for-women-india-sub-title {
+   width: 1043px;
+	color: #807D7E;
+	font-family: 'Causten';
+	font-size: 20px;
+	line-height: 33.5px; /* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+}
+.block-clothing-for-women-india-sub-title span {
+	font-weight: 600;
+}
+
+.block-clothing-for-women-india-sub-title-two {
+	width: 1217px;
+	color: #807D7E;
+	font-family: 'Causten';
+	font-size: 20px;
+	line-height: 33.5px; /* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+}
+.block-clothing-for-women-india-sub-title-tree {
+	width: 1219px;
+	color: #807D7E;
+	font-family: 'Causten';
+	font-size: 20px;
+	line-height: 33.5px; /* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+
+}
+.block-clothing-for-women-india a {
+	width: 168px;
+	color: #807D7E;
+	font-family: 'CoreSansC-65Bold';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 33.5px; /* 167.5% */
+	letter-spacing: 0.4px;
+}

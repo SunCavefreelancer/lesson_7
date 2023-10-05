@@ -1,0 +1,39 @@
+/* Підкдючення шрифтів */
+
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap');
+
+/* ======Підключення вручну======= */
+/* Шрифт № 1 */
+@font-face {
+	font-family: 'Causten';
+	src:
+		url("..//fonts/Causten-Regular.woff2") format("woff2"),
+		url("..//fonts/Causten-Regular.woff") format("woff");
+	wont-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src:
+		url("..//fonts/Causten-Medium.woff2") format("woff2"),
+		url("..//fonts/Causten-Medium.woff") format("woff");
+	wont-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/* Шрифт № 2 */
+@font-face {
+	font-family: 'CoreSansC-65Bold';
+	src:
+		url("..//fonts/CoreSansC-65Bold-Bold.woff2") format("woff2"),
+		url("..//fonts/CoreSansC-65Bold-Bold.woff") format("woff");
+	wont-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
