@@ -283,7 +283,7 @@ h4{
 .rectangle-img-a {
 	margin-right: 30px;
 	padding-top: 18px;
-	margin-top: 15px;
+	/*margin-left: -10px;*/
 	width: 177px;
 	height: 336px;
 	border-radius: 235px;
@@ -299,7 +299,7 @@ h4{
 	display: inline-block;
 	vertical-align: middle;
 	padding-top: 19px;
-	margin-left: -10px;
+	/*margin-left: -10px;*/
 	border-radius: 235px;
 	width: 307px;
 	height: 500px;
@@ -307,7 +307,6 @@ h4{
 }
 .rectangle-img-b img {
 	max-width: 100%;
-
 }
 
 
