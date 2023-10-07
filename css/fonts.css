@@ -29,10 +29,10 @@
 
 /* Шрифт № 2 */
 @font-face {
-	font-family: 'CoreSansC-65Bold';
-	src:
-		url("..//fonts/CoreSansC-65Bold-Bold.woff2") format("woff2"),
-		url("..//fonts/CoreSansC-65Bold-Bold.woff") format("woff");
+	font-family: 'Core Sans C';
+	src:     
+		url("..//fonts/CoreSansC-65Bold.woff2") format("woff2"),
+		url("..//fonts/CoreSansC-65Bold.woff") format("woff");
 	wont-weight: 600;
 	font-style: normal;
 	font-display: swap;

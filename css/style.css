@@ -274,22 +274,23 @@ h4{
 	line-height: 140%; /* 42px */
 	width: 489px;
 }
-
+	`
+/* --imgs-- */
 .maket-we-what-we-do-imgs {
 	display: inline-block;
 	vertical-align: top;
+	font-size: 0;
 }
 
 .rectangle-img-a {
 	margin-right: 30px;
 	padding-top: 18px;
-	/*margin-left: -10px;*/
 	width: 177px;
 	height: 336px;
 	border-radius: 235px;
 	display: inline-block;
 	vertical-align: middle;
-	border-top: 1px solid black;
+	border: 1px solid black;
 }
 .rectangle-img-a img {
 	max-width: 100%;	
@@ -322,7 +323,7 @@ h4{
 	display: inline-block;
 	width: 552px;
 	color: #3C4242;
-	font-family: 'CoreSansC-65Bold';
+	font-family: 'Core Sans C';
 	font-size: 28px;
 	font-weight: 600;
 	line-height: 33.5px; /* 119.643% */
@@ -332,7 +333,7 @@ h4{
 .block-clothing-for-women-india h3 {
 	width: 1153px;
 	color: #807D7E;
-	font-family: 'CoreSansC-65Bold';
+	font-family: 'Core Sans C';
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 33.5px; /* 167.5% */
@@ -350,7 +351,7 @@ h4{
 .block-clothing-for-women-india-title {
 	width: 1043px;
 	color: #807D7E;
-	font-family: 'CoreSansC-65Bold';
+	font-family: 'Core Sans C';
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 33.5px; /* 167.5% */
@@ -392,7 +393,7 @@ h4{
 .block-clothing-for-women-india a {
 	width: 168px;
 	color: #807D7E;
-	font-family: 'CoreSansC-65Bold';
+	font-family: 'Core Sans C';
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 33.5px; /* 167.5% */
