@@ -257,7 +257,7 @@ h4{
 }
 
 .maket-we-what-we-do-title {
-	max-width: 503px;
+	width: 503px;
 	color: #000;
 	font-family: 'Cormorant Infant';
 	font-size: 64px;
@@ -294,13 +294,14 @@ h4{
 }
 .rectangle-img-a img {
 	max-width: 100%;	
+	/* посунули фото від бордера */
+	margin-left: -11px;
 }
 
 .rectangle-img-b {
 	display: inline-block;
 	vertical-align: middle;
 	padding-top: 19px;
-	/*margin-left: -10px;*/
 	border-radius: 235px;
 	width: 307px;
 	height: 500px;
@@ -308,6 +309,8 @@ h4{
 }
 .rectangle-img-b img {
 	max-width: 100%;
+	/* посунули фото від бордера */
+	margin-left: -11px; 
 }
 
 
